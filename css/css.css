@@ -1,0 +1,250 @@
+/*css code*/
+*{
+    margin: 0%;
+    padding: 0%;
+}
+/*header secction*/
+
+header{
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    position: sticky;
+    }
+header::before {
+    content: "";
+    background: url('chandan1.jpg') no-repeat center center/cover;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 600px;
+    z-index: -1;
+    opacity: 0.5;
+}
+#logo {
+    width: 300px;
+    text-align: center;
+}
+.navbar {
+    display: flex;
+    margin: 5px;
+    padding: 10px 10px;
+    
+}
+header ul{
+    display: flex;
+    font-size: 20px; 
+}
+header ul li {
+    list-style: none;
+}
+header ul li a {
+    text-decoration: none;
+    margin: 5px; 
+    padding: 5px;
+    color: black;
+}
+header ul li a:hover{
+    text-decoration: underline;
+    color: aqua;
+}
+.searchbox{
+    margin: 0px 10px 0px 20px;
+}
+header input {
+    border: none;
+    border-radius: 5px;
+} 
+
+/* banner content*/
+
+#bannercont {
+    width: 50%; 
+    height: 170px;
+    margin: 190px 20px;
+    color: rgb(4, 50, 90);
+}
+.bannercont1 { 
+
+    margin: 10px;
+    padding: 5px;
+} 
+#bennerbtn{
+    width: 120px;
+    height: 44px;
+    margin-top: 20px;
+    font-size: 15px;
+    color: blue;
+    border: 2px solid rgb(38, 93, 209);
+    border-radius: 5px;
+    font-weight: bold;
+}
+#bennerbtn:hover {
+    cursor: pointer;
+    background-color:rgb(38, 93, 209) ;
+}
+
+/* about section*/
+#aboutsec {
+    width: 100%; 
+    height: 1200px;
+    background-color: aliceblue;
+}
+#aboutsec hr{
+    margin-bottom: 10px;
+    width: 70px;
+    border: 1.7px solid rgb(77, 200, 241);
+}
+.subabout {
+    display: flex;
+    width: 100%;   
+}
+.subabout1 {
+    width: 50%;
+    font-size: 20px;
+    padding: 10px;
+    margin-top:50px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+#aboutbox{
+    margin-top:50px;
+    margin-left: 80px;
+    margin-right: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    }
+.box{
+    background-color: rgb(143, 186, 206);
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rebeccapurple;
+    border-radius: 5px;
+    width: 20%;
+    height: 330px;
+    margin: 5px;
+    padding: 20px;
+}
+.box:hover {
+    background-color: rgb(56, 56, 236);
+
+}
+#box24{
+    position: relative;
+    top: 80px;
+}
+#subabout h3{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    }
+/* container*/
+#container {
+    background-color: aliceblue;
+    display: flex;
+    margin: 200px 0px;
+    padding: 10px 80px;
+} 
+.box1 {
+    width: 50%;
+
+}
+#box1 {
+    margin: 80px 150px;
+    background-color: white;
+}
+.box1 img {
+    margin-right: 10px;
+}
+.subox {
+    display: flex;
+    margin:25px;
+}
+/* Container1 */
+
+#container1 {
+    height: 700px;
+    margin: 0px 0px;
+    padding: 10px 80px;
+    position: relative;
+}
+#plus {
+    position: absolute;
+    top: 500px;
+    left: 500px;
+    z-index: 5;
+}
+#anchor {
+    position: absolute;
+    right: 450px;
+    top: 150px;
+    z-index: 2;
+}
+#ampl {
+    position: absolute;
+    right: 45px;
+    top: 450px;
+    z-index: 4;
+}
+#axis {
+   position: absolute; 
+   right: 250px;
+   top: 300px;
+   z-index: 3;
+}
+#kalayn {
+    position: absolute;
+    right: 150px;
+    z-index: 1;
+}
+#workbox {
+    display: flex;
+    width: 30%;
+    height: 200px;
+    background-color: rgb(107, 117, 248);
+    border: none;
+    border-radius: 5px;
+    position: absolute;
+    top: 280px;
+    left: 100px;
+    z-index: 6;
+    padding: 25px;
+    align-items: center;
+}
+/*Footer Section*/
+footer {
+    display: flex;
+    height: 200px;
+    margin: 100px 0px;
+    padding: 80px;
+    background-color: rgb(240, 240, 240);
+    justify-content: space-between;
+}
+footer ul li {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    
+}
+footer ul li a {
+    text-decoration: none;
+    padding: 5px;
+    color: black;
+}
+.footerbox h3 {
+    margin: 10px 5px;
+}
+.footerbox input {
+    height: 30px;
+    margin: 0%;
+    border-radius: 3px;
+}
+.footerbox button {
+    margin: 0px 0px 0px -3px;
+    width: 110px;
+    height: 35px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(21, 248, 248);
+}
